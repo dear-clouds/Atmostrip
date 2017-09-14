@@ -14,5 +14,12 @@ Les lecteurs pourront s'abonner à une Webtoon ou un auteur, ils auront aussi la
 
 Un site et une application Android sont prévus.
 
+## Frameworks
+
+- [Materialize](http://materializecss.com/)
+- [fullPage.js](https://alvarotrigo.com/fullPage/)
+- [Masonry](https://masonry.desandro.com/)
+- ...
+
 
 ## [Preview](https://atmostrip.herokuapp.com/)
