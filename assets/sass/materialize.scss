@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+// Mixins
+@import "components/mixins";
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/badges";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/transitions";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/tapTarget";
+@import "components/pulse";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
+@import "components/home";
+
+
+header {
+  margin-top: -65px;
+  height: 420px;
+  overflow: hidden;
+}
+
+header img {
+  margin-top: 80px;
+}
+
+.container {
+  position: relative;
+}
+
+nav {
+    background-color: transparent;
+    background: linear-gradient(180deg,rgba(6,6,22,.5),rgba(6,6,22,0));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(6,6,22, 0.5)",endColorstr="rgba(6,6,22, 0)",GradientType=0);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(6,6,22,.5)",endColorstr="rgba(6,6,22,0)",GradientType=0);
+    transition: background-color .3s linear;
+    box-shadow: none;
+}
+
+.brand-logo img {
+  margin-top: 10px;
+  width: 80%;
+}
+
+ul.left {
+  margin-left : 150px;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav:hover {
+  background-color: $secondary-color;
+}
+
+#switch-home {
+
+  .tabs {
+
+
+    .tab {
+
+
+      a {
+        color: $off-black;
+        font-size: 130%;
+        font-family: $secondary-font;
+
+      }
+    }
+  }
+}
+
+
+.material-icons {
+  vertical-align: middle !important;
+  font-size: inherit;
+}
+
+.secondary-color-bg {
+  background-color: $secondary-color;
+}
+
+.gap {
+  height: 50px;
+}
+
+.parallax-container {
+      height: auto;
+      text-shadow: 0px 0px 5px grey;
+    }
+
+
+.romans {
+    a.active {
+      color: $secondary-color !important;
+    }
+
+    .tabs .indicator {
+      background-color: $secondary-color !important;
+    }
+
+}
+
+
+.comics {
+    a.active {
+      color: $primary-color !important;
+    }
+
+    .indicator {
+      background-color: $primary-color !important;
+    }
+
+}
+
+
+.button-publish {
+    box-shadow: 0px 3px 2px 0 rgba(0, 0, 0, 0.14) !important;
+}
