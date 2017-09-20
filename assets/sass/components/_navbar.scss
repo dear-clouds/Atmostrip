@@ -20,6 +20,13 @@ nav {
   height: $navbar-height-mobile;
   line-height: $navbar-line-height-mobile;
 
+  background-color: transparent;
+  background: linear-gradient(180deg,rgba(6,6,22,0.5),rgba(6,6,22,0.2));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(6,6,22, 0.5)",endColorstr="rgba(6,6,22, 0)",GradientType=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(6,6,22,.5)",endColorstr="rgba(6,6,22,0)",GradientType=0);
+  transition: background-color .3s linear;
+  box-shadow: none;
+
   a { color: $navbar-font-color; }
 
   i,
@@ -186,7 +193,7 @@ nav {
 
 // Fixed Navbar
 .navbar-fixed {
-  position: relative;
+  position: absolute;
   height: $navbar-height-mobile;
   z-index: 997;
 

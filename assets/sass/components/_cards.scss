@@ -4,9 +4,66 @@
   transition: box-shadow .25s;
   padding: $card-padding;
   margin: $element-top-margin 0 $element-bottom-margin 0;
-  border-radius: 4px;
+  border-radius: 5px;
   // @extend .z-depth-1;
   background-color: $card-bg-color;
+}
+
+.card-popular {
+  position: relative;
+  margin: $element-top-margin 0 $element-bottom-margin 0;
+  background-color: transparent;
+  transition: box-shadow .25s;
+  border-radius: 5px;
+
+  .card-content {
+    line-height: 90%;
+  }
+
+  .love-comic {
+    margin-top: 20px !important;
+  }
+
+  // Horizontal Cards
+  &.horizontal {
+    &.small, &.medium, &.large {
+      .card-image {
+        height: 80%;
+        max-height: none;
+        overflow: visible;
+
+          .thumb {
+            height: 80% !important;
+          }
+
+        img {
+          height: 80%;
+        }
+      }
+    }
+
+    display: flex;
+
+    .card-image {
+      max-width: 50%;
+      img {
+        border-radius: 5px;
+        max-width: 80%;
+        width: auto;
+      }
+    }
+
+    .card-stacked {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      position: relative;
+
+      .card-content {
+        flex-grow: 1;
+      }
+    }
+  }
 }
 
 .card {
@@ -14,8 +71,8 @@
   margin: $element-top-margin 0 $element-bottom-margin 0;
   background-color: $card-bg-color;
   transition: box-shadow .25s;
-  border-radius: 2px;
-  // @extend .z-depth-1;
+  border-radius: 5px;
+  @extend .z-depth-1;
 
 
   .card-title {
@@ -84,7 +141,7 @@
     .card-image {
       max-width: 50%;
       img {
-        border-radius: 2px 0 0 2px;
+        border-radius: 5px;
         max-width: 100%;
         width: auto;
       }
@@ -123,7 +180,7 @@
     // Image background for content
     img {
       display: block;
-      border-radius: 2px 2px 0 0;
+      border-radius: 5;
       position: relative;
       left: 0;
       right: 0;
@@ -145,7 +202,7 @@
 
   .card-content {
     padding: $card-padding;
-    border-radius: 0 0 2px 2px;
+    border-radius: 5;
 
     p {
       margin: 0;

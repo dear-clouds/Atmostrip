@@ -13,6 +13,7 @@
 .synopsis-slider {
   max-width: 305px;
   text-align: justify;
+  font-weight: bold;
 }
 
 .title-release {
@@ -44,6 +45,35 @@
   vertical-align: middle !important;
 }
 
+.overlay-vedette {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: 1;
+}
+
+.image-vedette {
+  position: relative;
+}
+
+.card-content-vedette {
+  margin-top: -90px;
+  position: absolute;
+  z-index: 1;
+  padding-left: 15px;
+
+  .title-release {
+    color: white !important;
+  }
+
+  .author-release {
+    margin-top: -15px !important;
+  }
+}
+
 
 #new-comics, #new-romans, #genres-comics, #genres-romans, #top-comics, #top-romans {
   padding: 0px !important;
@@ -52,4 +82,33 @@
 #clickme {
   background: transparent;
   border: none;
+}
+
+#random {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)
+    ),
+    url('../img/bg-random.jpg');
+
+  background-size: cover;
+  padding: 10px;
+
+  h2 {
+    color: white;
+  }
+}
+
+
+footer {
+  background: black;
+  padding: 30px;
+  color: grey;
+  text-align: center;
+  font-size: 150%;
+
+  a {
+    margin-right: 30px;
+    color: white;
+  }
 }

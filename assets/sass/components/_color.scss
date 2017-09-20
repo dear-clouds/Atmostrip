@@ -51,7 +51,8 @@ $pink: (
   "accent-1":    #ff80ab,
   "accent-2":    #ff4081,
   "accent-3":    #f50057,
-  "accent-4":    #c51162
+  "accent-4":    #c51162,
+  "secondary-color": #df3469
 );
 
 $purple: (
@@ -409,4 +410,3 @@ $colors: (
   @warn "Unknown `#{$color}` - `#{$type}` in $colors.";
   @return null;
 }
-

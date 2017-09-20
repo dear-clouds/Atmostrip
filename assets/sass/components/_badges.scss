@@ -2,14 +2,15 @@
 span.badge {
   min-width: 3rem;
   padding: 0 6px;
-  margin-left: 14px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 80%;
   line-height: $badge-height;
   height: $badge-height;
-  color: color('grey', 'darken-1');
-  float: right;
   box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: bold;
 
   &.new {
     font-weight: 300;
@@ -43,4 +44,22 @@ nav ul a span.badge {
 }
 .side-nav span.badge {
   margin-top: calc(#{$sidenav-line-height / 2} - #{$badge-height / 2});
+}
+
+.top-number {
+  padding: 0px 8px 8px 8px;
+  text-align: center;
+  font-size: 80%;
+  line-height: $badge-height;
+  height: $badge-height;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: $primary-color;
+  color: white;
+  border-radius: 100px;
+  margin-top: -5px;
+  margin-left: -5px;
 }

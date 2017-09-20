@@ -48,11 +48,13 @@ $bg-color: #eaeaea;
 
 $action: #E8563D !default;
 $comedy: #EABA28 !default;
-$drama: #4fb3bf !default;
+$drama: #4f89bf !default;
 $romance: #EA7AC0  !default;
 $horror: #4C0000 !default;
 $sciencefiction: #2D54E2 !default;
 $fantasy: #844ACE !default;
+
+$color-author: #e0e0e0 !default;
 
 
 // 2. Badges
@@ -112,8 +114,8 @@ $card-link-color-light: lighten($card-link-color, 20%) !default;
 // 5. Carousel
 // ==========================================================================
 
-$carousel-height: 400px !default;
-$carousel-item-height: $carousel-height / 2 !default;
+$carousel-height: 600px !default;
+$carousel-item-height: $carousel-height !default;
 $carousel-item-width: $carousel-item-height !default;
 
 
@@ -314,7 +316,7 @@ $secondary-font: 'Fredoka One', cursive;
 $off-black: rgba(0, 0, 0, 0.75) !default;
 // Header Styles
 $h1-fontsize: 2.50rem !default;
-$h2-fontsize: 2rem !default;
+$h2-fontsize: 1.60rem !default;
 $h3-fontsize: 1.50rem !default;
 $h4-fontsize: 1.28rem !default;
 $h5-fontsize: 1.10rem !default;
