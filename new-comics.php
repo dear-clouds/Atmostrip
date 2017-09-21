@@ -1,4 +1,4 @@
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m12">
   <div class="card hoverable">
     <div class="card-image image-vedette">
       <span class="badge amber darken-1 white-text">Sélection</span>

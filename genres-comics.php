@@ -2,7 +2,7 @@
 <div class="clearfix"></div>
 <p><a class="btn waves-effect waves-light button-action" style="margin-left: 10px;">Action <i class="material-icons">chevron_right</i></a></p>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
  <div class="card-image">
    <img src="assets/img/comic-1.png" style="width:130px !important;">
@@ -18,7 +18,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
   <div class="card-image">
     <img src="assets/img/comic-1.png" style="width:130px !important;">
@@ -34,7 +34,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
   <img src="assets/img/comic-1.png" style="width:130px !important;">
@@ -55,7 +55,7 @@
 <div class="clearfix"></div>
 <p><a class="btn waves-effect waves-light button-fantasy" style="margin-left: 10px;">Fantastique <i class="material-icons">chevron_right</i></a></p>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-2.png" style="width:130px !important;">
@@ -71,7 +71,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-2.png" style="width:130px !important;">
@@ -87,7 +87,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-2.png" style="width:130px !important;">
@@ -108,7 +108,7 @@
 <div class="clearfix"></div>
 <p><a class="btn waves-effect waves-light button-comedy" style="margin-left: 10px;">Comédie <i class="material-icons">chevron_right</i></a></p>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-3.png" style="width:130px !important;">
@@ -124,7 +124,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-3.png" style="width:130px !important;">
@@ -140,7 +140,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-3.png" style="width:130px !important;">
@@ -160,7 +160,7 @@
 <div class="clearfix"></div>
 <p><a class="btn waves-effect waves-light button-drama" style="margin-left: 10px;">Drame <i class="material-icons">chevron_right</i></a></p>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-4.png" style="width:130px !important;">
@@ -176,7 +176,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-4.png" style="width:130px !important;">
@@ -192,7 +192,7 @@
 </div>
 </div>
 
-<div class="col l4 s6 m6">
+<div class="col l4 s12 m6">
 <div class="card horizontal hoverable">
 <div class="card-image">
 <img src="assets/img/comic-4.png" style="width:130px !important;">

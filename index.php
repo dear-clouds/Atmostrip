@@ -262,3 +262,131 @@
      </div>
    </div>
 </section>
+
+
+<div class="gap"></div>
+
+<section id="tops">
+    <div class="container">
+<div class="row">
+   <div class="col s8"><h2>Populaires</h2></div>
+   <div class="col s4" id="switch-home">
+     <ul class="tabs">
+       <div class="comics"><li class="tab col s6"><a class="active"  href="#top-comics"><i class="fa fa-comment" aria-hidden="true"></i> Comics</a></li></div>
+       <div class="romans"><li class="tab col s6"><a href="#top-romans" class="romans"><i class="fa fa-book" aria-hidden="true"></i> Romans</a></li></div>
+     </ul>
+   </div>
+   <div id="top-comics" class="col s12">
+
+
+    <?php include('top-comics.php'); ?>
+
+
+<!-- <div class="divider"></div> -->
+
+   </div>
+
+   <div id="top-romans" class="col s12">Test 2</div>
+ </div>
+    </div>
+</section>
+
+
+
+
+<section id="rejoindre" style="background: url('assets/img/bg-rejoindre.jpg'); background-size: cover; height: auto; padding: 20px; background-position: center;">
+
+     <div class="container">
+       <h2 class="black-text">êtes-vous un créateur ?</h2>
+       <p class="black-text" style="max-width: 600px;">Vous pouvez créer toutes sortes d’histoire, promouvoir votre série en choisissant parmis une selection de genres et ajouter vos propres tag.</p>
+
+<p class="black-text" style="max-width: 600px;">N’attendez plus, créez votre atmostrip !</p>
+
+       <p><a class="btn waves-effect waves-light black white-text">Publiez votre série</a></p>
+     </div>
+
+</section>
+
+
+<footer>
+    <div class="container">
+
+
+<img src="assets/img/logo-bw.png" style="vertical-align: middle; margin-right: 30px;">
+
+    <a href="#"><span class="socicon-facebook"></span></a>
+
+    <a href="#"><span class="socicon-instagram"></span></a>
+
+    <a href="#"><span class="socicon-twitter"></span></a>
+
+    <a href="#"><span class="socicon-pinterest"></span></a>
+
+    <a href="#"><span class="socicon-youtube"></span></a>
+
+<p><a href="#">AIDE</a> <a href="#">CONTACT</a> <a href="#">PUBLIER</a> <a href="#">COMICS</a> <a href="#">ROMANS</a></p>
+<p>© 2017 Atmostrip. Made by MadClouds Studio.</p>
+
+    </div>
+</footer>
+
+
+
+
+  <script>
+     $('.carousel.carousel-slider').carousel({fullWidth: true});
+  //    setInterval(function() {
+  //   $('.carousel').carousel('next');
+  // }, 5000); // every 2 seconds
+
+     // Initialize collapse button
+     $('.ava-sidebar').sideNav({
+        menuWidth: 300, // Default is 300
+        edge: 'right', // Choose the horizontal origin
+        closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        draggable: true, // Choose whether you can drag to open on touch screens,
+      }
+    );
+
+    $(document).ready(function(){
+     $('.parallax').parallax();
+   });
+  </script>
+
+  <script>
+  var options = [
+    {selector: '#by-genres', offset: 400, callback: function(el) { Materialize.card($(el)); } }
+  ];
+
+  Materialize.scrollFire(options);
+  </script>
+
+<script>
+$(document).ready(function(){
+ var scroll_start = 0;
+ var startchange = $('nav');
+ var offset = startchange.offset();
+ $(document).scroll(function() {
+    scroll_start = $(this).scrollTop();
+    if(scroll_start > offset.top) {
+        $('nav').css('background', '#df3469');
+     } else {
+        $('nav').css('background', 'linear-gradient(180deg,rgba(6,6,22,0.5),rgba(6,6,22,0.2))');
+     }
+ });
+
+
+var $toastContent = $('<span>Ajouté aux favoris !</span>').add($('<button class="btn-flat toast-action">Annuler</button>'));;
+ var button = document.getElementById('clickme'),
+   count = 0;
+ button.onclick = function() {
+   count += 1;
+   button.innerHTML = "<div class=\"primary-color\"><i class=\"material-icons\">favorite</i> " + count + "</div>";
+   Materialize.toast($toastContent, 4000);
+ };
+
+});
+
+</script>
+</body>
+</html>
